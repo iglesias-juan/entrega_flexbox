@@ -103,7 +103,6 @@ a {
   color: whitesmoke;
   font-size: 30px;
   font-weight: 600;
-  max-width: 270px;
 }
 
 .form > h2 {
@@ -111,7 +110,8 @@ a {
   font-size: 15px;
   font-weight: 400;
   margin-top: 10px;
-  min-width: 270px;
+  width: 270px;
+  text-align: justify;
 }
 
 .form-info {
@@ -133,7 +133,13 @@ a {
   display: flex;
   flex-direction: column;
   color: rgba(220, 220, 220, 0.682);
-  padding-left: 30px;
+}
+
+.ck_box {
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(220, 220, 220, 0.682);
+  width: 90px;
 }
 
 .buttons {
@@ -164,6 +170,8 @@ button {
   color: rgba(220, 220, 220, 0.682);
   font-size: 12px;
   margin-top: 30px;
+  width: 270px;
+  text-align: justify;
 }
 
 footer {
